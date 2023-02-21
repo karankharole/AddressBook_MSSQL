@@ -30,4 +30,7 @@ select * from AddressBook;
 delete AddressBook where FirstName='om';
 select * from AddressBook;
 
+--UC6 find person belonging to city or state--
+select * from AddressBook where City = 'mah' or State = 'amt'; 
+
 
